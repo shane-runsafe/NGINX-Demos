@@ -1,4 +1,4 @@
-FROM nginx
+FROM runsafesecurity-docker-alkemist-repo.jfrog.io/nginx
 
 # copy the cert and key
 COPY swarmdemo.selfcrt /root/swarmdemo.crt

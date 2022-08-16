@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM runsafesecurity-docker-alkemist-repo.jfrog.io/nginx:latest
 
 COPY start.sh /usr/local/sbin
 RUN chmod +x /usr/local/sbin/start.sh

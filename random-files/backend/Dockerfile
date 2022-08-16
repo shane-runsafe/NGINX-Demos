@@ -1,4 +1,4 @@
-FROM nginx
+FROM runsafesecurity-docker-alkemist-repo.jfrog.io/nginx
 MAINTAINER Nick Shadrin <nick@nginx.com>
 
 COPY ./start.sh /usr/share/nginx/html/start.sh
